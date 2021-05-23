@@ -1,19 +1,11 @@
-# hibal
+# Hiba Lubbad's Portfolio
 
-## Project setup
-```
-npm install
-```
+## Technology Stack:
+- VueJS
+- Vuetify
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Laptop's View
+![](https://raw.githubusercontent.com/maezzedine/Portfolio-Hiba/master/public/screenshot-laptop.png?token=AKPLNOPRMDAQHUMOFW6O6FTAWOKUO)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Phone's View
+<img width="500px" src="https://raw.githubusercontent.com/maezzedine/Portfolio-Hiba/master/public/screenshot-phone.png?token=AKPLNOK66UI2R5BYKSOKPXLAWOKWU" />
