@@ -1,0 +1,19 @@
+#skills {
+    margin: 10%;
+
+    .title {
+        @include section-title;
+        text-align: center;
+    }
+
+    table {
+        border: 1px solid grey !important;
+
+        td {
+
+            @media (max-width: 700px) {
+                padding: 5%;
+            }
+        }
+    }
+}

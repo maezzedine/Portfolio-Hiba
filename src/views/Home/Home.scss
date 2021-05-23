@@ -1,0 +1,32 @@
+.home {
+    min-height: calc(100vh - 118px);
+    
+    .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: inherit;
+    
+        .content {
+            // margin: 5%;
+    
+            .greetings {
+                color: $txt-1;
+        
+                .name {
+                    font-weight: bold;
+                    color: $txt-2;
+                }
+            }
+    
+            .btn-info {
+                @include btn-1;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+}

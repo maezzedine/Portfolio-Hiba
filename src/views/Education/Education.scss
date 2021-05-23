@@ -1,0 +1,45 @@
+#education {
+    margin: 10%;
+
+    @media (max-width: 700px) {
+        margin: 5%;
+        margin-bottom: 200px;
+    }
+
+    .education-row {
+        justify-content: space-around;
+        // min-height: 80vh;
+        
+        .section {
+            transition: all .2s ease-in-out;
+
+            &:first-child {
+                margin-top: 10% !important;
+            }
+    
+            &:hover {
+                transform: scale(1.1);
+            }
+            
+            .section-title {
+                color: $txt-2;
+                word-break: keep-all;
+            }
+    
+            img {
+                width: 90%;
+                margin-left: 5%;
+            }
+    
+            .major {
+                text-align: center;
+                color: $txt-1;
+            }
+        }
+    }
+
+    .title {
+        @include section-title;
+    }
+
+}

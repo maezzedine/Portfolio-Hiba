@@ -1,0 +1,29 @@
+@mixin btn-1 {
+    background-color: $txt-2 !important;
+    color: white;
+    border-radius: 20px;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        background-color: $fg-2 !important;
+        color: $txt-2;
+    }
+}
+
+@mixin btn-2 {
+    background-color: #ffffff !important;
+    border-radius: 20px;
+    transition: all .2s ease-in-out;
+    color: $txt-2 !important;
+
+    &:hover {
+        background-color: $txt-2 !important;
+        color: white !important;
+    }
+}
+
+@mixin section-title {
+    font-weight: bold;
+    color: $txt-1;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,34 @@
+html {
+    font-family: 'KoHo', sans-serif !important;
+    scroll-behavior: smooth;
+}
+
+.v-application {
+    background-image: linear-gradient(to top, #f6f8fb, #f0f7fc, #edf5fa, #d7effa) !important;
+    font-family: 'KoHo', sans-serif !important;
+
+    & > * {
+        font-family: 'KoHo', sans-serif !important;
+    }
+
+    div[class^="text-"], div[class*=" text-"] {
+        font-family: 'KoHo', sans-serif !important;
+    }
+
+    .main-window {
+        width: 80%;
+        margin: auto;
+
+        @media (max-width: 1000px) {
+            width: 90%;
+        }
+    }
+
+    .v-main {
+        margin-top: 64px;
+    }   
+
+    .v-card__title, .v-card__subtitle {
+        word-break: keep-all;
+    }
+}

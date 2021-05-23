@@ -1,0 +1,30 @@
+#activities {
+    margin: 10%;
+
+    .title {
+        @include section-title;
+        text-align: center;
+    }
+
+    .row {
+        justify-content: space-between;
+
+        .text-h4 {
+            text-align: center;
+            color: $txt-2;
+        }
+
+        .v-card {
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            .v-card__title, .v-card__subtitle {
+                word-break: keep-all;
+                color: $txt-1;
+            }
+        }
+    }
+}

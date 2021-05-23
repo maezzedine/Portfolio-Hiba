@@ -1,0 +1,62 @@
+#experience {
+    margin: 10%;
+
+    .title {
+        @include section-title;
+        text-align: right;
+
+        @media (max-width: 700px) {
+            margin-bottom: 100px;
+        }
+    }
+
+    .v-card {
+        transition: all .5s ease-in-out;
+        position: relative;
+        align-self: flex-start;
+        border-radius: 50%;
+        padding: 1%;
+        // height: 350px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        &:hover {
+            transform: scale(1.5);
+            border-radius: 20px;
+
+            @media (max-width: 700px) {
+                transform: scale(1.1);
+                width: 90vw;
+                padding: 5%;
+            }
+
+            .content {
+                font-size: .6em; 
+                opacity: 1;
+            }
+        }
+
+        .v-card__title {
+            text-align: center !important;
+            display: block;
+            color: $txt-2;
+        }
+
+        .v-card__subtitle {
+            color: $txt-1;
+        }
+
+        .content {
+            // display: none;
+            font-size: 0em;
+            text-align: justify;
+            // height: 0%;
+            opacity: 0;
+            transition: all .5s ease-in-out;
+                // z-index: -1;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+#appbar {
+    &.blurry {
+        backdrop-filter: blur(100px);
+        box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 5px 8px 0px rgb(0 0 0 / 14%), 0px 1px 14px 0px rgb(0 0 0 / 12%) !important;
+    }
+    
+    .v-toolbar__title {
+        overflow: visible;
+        font-weight: bold;
+        color: $fg-1;
+    }
+    
+    .btn-contact {
+        @include btn-2;
+    }
+    
+    .btn-pages {
+        @include btn-1;
+        // margin-right: 10px;
+        float: left;
+    }
+    
+    .v-tab {
+        font-weight: bold;
+    
+        &:not(.v-tab--active) {
+            color: $txt-1 !important;
+        }
+    
+    }
+    
+    a {
+        text-decoration: none !important;
+        color: unset !important;
+    }
+    
+    .bar-row {
+        justify-content: space-between;
+    }
+}
+
+
+.v-list {
+    
+    .v-list-item {
+        font-weight: bold;
+        color: $txt-1 !important;
+
+
+        a {
+            text-decoration: none !important;
+            color: unset;
+        }
+    }
+}

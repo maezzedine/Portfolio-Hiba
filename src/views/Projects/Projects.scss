@@ -1,0 +1,41 @@
+#projects {
+    position: relative;
+    // margin: 10%;
+    // background-color: $bg-1;
+
+    .title {
+        @include section-title;
+    }
+
+    .row {
+        justify-content: space-between;
+        
+        .v-card {
+            transition: all .3s ease-in-out;
+            align-self: center !important;
+            width: 30%;
+            // margin: 0 1.5%;
+            // white-space: nowrap;
+            hyphens: auto;
+    
+            @media (max-width: 700px) {
+                width: 100%;
+            }
+    
+            &:hover {
+                transform: scale(1.1);
+            }
+    
+            .v-card__title {
+                color: $txt-2;
+                word-break: keep-all;
+            }
+    
+            .v-card__subtitle {
+                color: $txt-1;
+                word-break: keep-all;
+            }
+        }
+    }
+
+}
